@@ -1,0 +1,12 @@
+.authNav {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    margin-right: 0.625rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

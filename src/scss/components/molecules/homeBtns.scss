@@ -1,0 +1,8 @@
+.homeBtns {
+  display: flex;
+  justify-content: center;
+
+  .bigBtn:first-child {
+    margin-right: 2.75rem;
+  }
+}

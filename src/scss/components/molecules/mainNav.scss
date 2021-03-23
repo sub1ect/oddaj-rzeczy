@@ -1,0 +1,31 @@
+.mainNav {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    margin-right: 0.9375rem;
+
+    a {
+      display: inline-block;
+      text-align: left;
+      font-family: $font-base;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      letter-spacing: 0;
+      color: $color-font;
+      padding: 0.5625rem 1.25rem;
+    }
+
+    &:first-child {
+      border: 0.75px solid $color-font;
+    }
+
+    &:last-child {
+      margin-right: 0;
+
+      a:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}

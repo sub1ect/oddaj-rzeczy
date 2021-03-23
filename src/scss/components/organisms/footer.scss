@@ -1,0 +1,32 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+
+  &__socials {
+    position: absolute;
+    right: 0;
+
+    a {
+      width: 2rem;
+      margin-right: 1.25rem;
+    }
+
+    & a:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__text {
+    margin-left: 5%;
+    font-family: $font-base;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    color: $color-font;
+  }
+}

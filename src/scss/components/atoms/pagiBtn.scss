@@ -1,0 +1,15 @@
+.pagiBtn {
+  text-align: left;
+  font-family: $font-base;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+  color: $color-font;
+  padding: 0.8125rem 0.9375rem;
+  border: 1px solid transparent;
+
+  &.active {
+    outline: none;
+    border: 1px solid #707070;
+  }
+}

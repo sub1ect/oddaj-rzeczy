@@ -1,0 +1,14 @@
+.helpBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.125rem 0 4.375rem;
+
+  .smallBtn {
+    margin-right: 6rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

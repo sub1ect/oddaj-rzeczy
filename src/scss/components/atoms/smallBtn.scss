@@ -1,0 +1,23 @@
+.smallBtn {
+  display: inline-block;
+  text-align: center;
+  font-family: $font-base;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+  color: $color-font;
+  border: 0.75px solid transparent;
+
+  &.active {
+    border: 0.75px solid $color-font;
+  }
+
+  .center {
+    height: 4.9375rem;
+    width: 13rem;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

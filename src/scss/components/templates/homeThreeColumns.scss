@@ -1,0 +1,43 @@
+.threeColumns {
+  background-color: $color-accent-strong;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .column {
+    &__number {
+      text-align: center;
+      font-family: $font-base;
+      font-weight: 300;
+      font-size: 5.625rem;
+      line-height: 7.625rem;
+      letter-spacing: 0;
+      color: $color-numbers;
+      padding-top: 2.875rem;
+    }
+
+    &__title {
+      text-align: center;
+      font-family: $font-base;
+      font-size: 1.125rem;
+      line-height: 1.875rem;
+      letter-spacing: -0.36px;
+      color: $color-font;
+      padding: 0.625rem 0 1.75rem;
+      text-transform: uppercase;
+    }
+
+    &__text {
+      text-align: center;
+      font-family: $font-alt;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.5rem;
+      letter-spacing: -0.32px;
+      color: $color-font;
+      padding-bottom: 5.375rem;
+      max-width: 21.875rem;
+    }
+  }
+}

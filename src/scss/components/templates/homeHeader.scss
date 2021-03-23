@@ -1,0 +1,21 @@
+.header {
+  position: relative;
+  right: 5%;
+  display: flex;
+  height: 100vh;
+
+  &__left {
+    width: 53%;
+    background: url('../../../assets/Home-Hero-Image.jpg') no-repeat right
+      center/cover;
+  }
+
+  &__right {
+    width: 47%;
+    margin-top: 2.5%;
+
+    .intro {
+      margin-top: 20%;
+    }
+  }
+}

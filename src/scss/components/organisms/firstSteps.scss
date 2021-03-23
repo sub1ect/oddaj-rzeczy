@@ -1,0 +1,54 @@
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-accent-light;
+  margin: 2.1875rem 0;
+
+  .element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7.5%;
+    padding: 4.6875rem 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &__img {
+      width: 5.1875rem;
+      margin: 0 auto;
+    }
+
+    &__title {
+      text-align: left;
+      font-family: $font-base;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      letter-spacing: 0;
+      color: $color-font;
+      text-align: center;
+      padding: 1rem 0;
+      max-width: 10rem;
+    }
+
+    &__decoration {
+      border: 1px solid #707070;
+      width: 4.375rem;
+      margin: 0 auto;
+    }
+
+    &__text {
+      text-align: center;
+      font-family: $font-base;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      letter-spacing: 0;
+      color: $color-font;
+      text-align: center;
+      padding-top: 1rem;
+      max-width: 10rem;
+    }
+  }
+}
