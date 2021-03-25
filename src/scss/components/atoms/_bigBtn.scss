@@ -11,4 +11,9 @@
   max-width: 19.375rem;
   min-height: 7.5rem;
   border: 0.75px solid $color-font;
+
+  &:hover {
+    background-color: $color-accent-light;
+    transition: 0.5s;
+  }
 }

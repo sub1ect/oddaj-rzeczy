@@ -8,7 +8,7 @@ function AuthNav() {
         <AuthLink to='/login' text='Zaloguj' />
       </li>
       <li className='authNav__item'>
-        <AuthLink to='/' text='Załóż konto' />
+        <AuthLink to='/register' text='Załóż konto' />
       </li>
     </ul>
   );

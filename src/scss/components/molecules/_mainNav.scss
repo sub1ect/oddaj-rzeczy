@@ -1,9 +1,16 @@
 .mainNav {
   display: flex;
   align-items: center;
+  position: relative;
 
   &__item {
     margin-right: 0.9375rem;
+    border: 0.75px solid transparent;
+
+    &:hover {
+      border: 0.75px solid $color-font;
+      transition: 0.5s;
+    }
 
     a {
       display: inline-block;
@@ -22,10 +29,6 @@
 
     &:last-child {
       margin-right: 0;
-
-      a:last-child {
-        padding-right: 0;
-      }
     }
   }
 }

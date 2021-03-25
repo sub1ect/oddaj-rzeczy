@@ -1,0 +1,99 @@
+.register {
+  padding: 2.5% 5% 0;
+
+  .mainNav__item:first-child {
+    border: 0.75px solid transparent;
+
+    &:hover {
+      border: 0.75px solid $color-font;
+      transition: 0.5s;
+    }
+  }
+
+  .center-content {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 0;
+  }
+
+  .title {
+    padding-bottom: 5vh;
+  }
+
+  .form {
+    margin: 0 auto;
+    width: 30%;
+
+    &__inputs {
+      background-color: $color-accent-light;
+      padding: 2rem 5rem;
+
+      & input:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.75rem;
+      font-family: $font-base;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 0;
+      color: $color-font;
+      width: 100%;
+    }
+
+    input {
+      border: none;
+      background-color: $color-accent-light;
+      border-bottom: 1px solid $color-font;
+      height: 1.5rem;
+      outline: none;
+      margin-bottom: 2.5rem;
+      width: 100%;
+
+      &.alert::placeholder {
+        color: red;
+        opacity: 0.4;
+      }
+    }
+
+    &__btns {
+      margin-top: 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        padding: 0.85rem 1rem;
+        transform: translateX(-5rem);
+        font-weight: 300;
+        font-size: 1.125rem;
+        letter-spacing: 0;
+        border: 0.75px solid transparent;
+
+        &:hover {
+          border: 0.75px solid $color-font;
+          transition: 0.5s;
+        }
+      }
+
+      button {
+        padding: 0.85rem 1rem;
+        transform: translateX(5rem);
+        font-weight: 300;
+        font-size: 1.125rem;
+        letter-spacing: 0;
+        border: 0.75px solid $color-font;
+        outline: none;
+
+        &:hover {
+          background-color: $color-accent-light;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}

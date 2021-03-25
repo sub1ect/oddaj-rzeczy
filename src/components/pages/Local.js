@@ -4,6 +4,7 @@ import HomeThreeColumns from '../templates/HomeThreeColumns';
 import HomeFirstSteps from '../templates/HomeFirstSteps';
 import HomeAbout from '../templates/HomeAbout';
 import HomeHelpLocal from '../templates/HomeHelpLocal';
+import HomeContact from '../templates/HomeContact';
 
 function Local() {
   return (
@@ -14,6 +15,7 @@ function Local() {
         <HomeFirstSteps />
         <HomeAbout />
         <HomeHelpLocal />
+        <HomeContact />
       </main>
     </>
   );

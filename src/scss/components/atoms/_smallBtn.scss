@@ -8,6 +8,11 @@
   color: $color-font;
   border: 0.75px solid transparent;
 
+  &:hover {
+    border-bottom: 0.75px solid $color-font;
+    transition: 0.5s;
+  }
+
   &.active {
     border: 0.75px solid $color-font;
   }

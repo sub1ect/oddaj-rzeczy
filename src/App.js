@@ -6,6 +6,9 @@ import Home from './components/pages/Home';
 import Local from './components/pages/Local';
 import LoggedIn from './components/pages/LoggedIn';
 import Organizations from './components/pages/Organizations';
+import Login from './components/pages/Login';
+import Register from './components/pages/Register';
+import LoggedOut from './components/pages/LoggedOut';
 import Error from './components/pages/Error';
 
 function App() {
@@ -17,6 +20,15 @@ function App() {
         </Route>
         <Route path='/local'>
           <Local />
+        </Route>
+        <Route path='/login'>
+          <Login />
+        </Route>
+        <Route path='/logged_out'>
+          <LoggedOut />
+        </Route>
+        <Route path='/register'>
+          <Register />
         </Route>
         <Route path='/logged_in'>
           <LoggedIn />

@@ -4,6 +4,7 @@ import HomeThreeColumns from '../templates/HomeThreeColumns';
 import HomeFirstSteps from '../templates/HomeFirstSteps';
 import HomeAbout from '../templates/HomeAbout';
 import HomeHelpOrgs from '../templates/HomeHelpOrgs';
+import HomeContact from '../templates/HomeContact';
 
 function Organizations() {
   return (
@@ -14,6 +15,7 @@ function Organizations() {
         <HomeFirstSteps />
         <HomeAbout />
         <HomeHelpOrgs />
+        <HomeContact />
       </main>
     </>
   );

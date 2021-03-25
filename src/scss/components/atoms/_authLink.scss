@@ -4,13 +4,19 @@
     text-align: right;
     font-family: $font-base;
     font-size: 0.875rem;
-    // line-height: 5.3125rem;
     letter-spacing: 0;
     padding: 0.5625rem 0.625rem;
     color: $color-auth;
+    border: 0.75px solid transparent;
 
-    &.active {
+    &:hover {
       border: 0.75px solid $color-accent-strong;
+      transition: 0.5s;
+    }
+
+    &.hover {
+      border: 0.75px solid $color-accent-strong;
+      transition: 0.5s;
     }
   }
 }

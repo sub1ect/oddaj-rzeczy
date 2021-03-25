@@ -1,0 +1,48 @@
+.logged-out {
+  padding: 2.5% 5%;
+
+  .mainNav__item:first-child {
+    border: 0.75px solid transparent;
+
+    &:hover {
+      border: 0.75px solid $color-font;
+      transition: 0.5s;
+    }
+  }
+
+  .center-content {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 0;
+  }
+
+  .title {
+    padding-bottom: 5vh;
+
+    h2 {
+      max-width: 20ch;
+      margin: 0 auto;
+    }
+  }
+
+  .centerLink {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    a {
+      padding: 0.85rem 1rem;
+      transform: translateX(-5rem);
+      font-weight: 300;
+      font-size: 1.125rem;
+      letter-spacing: 0;
+      border: 0.75px solid $color-font;
+
+      &:hover {
+        background-color: $color-accent-light;
+        transition: 0.5s;
+      }
+    }
+  }
+}
